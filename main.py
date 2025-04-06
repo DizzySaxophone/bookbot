@@ -14,3 +14,4 @@
 #get_word_count()
 from stats import get_word_count
 #print(get_word_count())
+from stats import get_letter_count
