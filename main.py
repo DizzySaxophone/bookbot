@@ -12,6 +12,11 @@
 #		print(f"{len(Word_count)} words found in the document")
 #		print(word_contents)
 #get_word_count()
+print("============ BOOKBOT ============")
+print("Analyzing book found at books/frankenstein.txt...")
+print("----------- Word Count ----------")
 from stats import get_word_count
-#print(get_word_count())
+#print("--------- Character Count -------")
 from stats import get_letter_count
+print("============= END ===============")
+#from stats import sort
