@@ -1,11 +1,12 @@
+import sys
 def get_word_count():
-	with open("/home/dizzy/boot.dev/bookbot/books/frankenstein.txt") as word:
+	with open(sys.argv[1]) as word:
 		word_contents = word.read()
 		Word_count = word_contents.split()
 		return len(Word_count)
 letter_dict = {}
 def get_letter_count():
-	with open("/home/dizzy/boot.dev/bookbot/books/frankenstein.txt") as letter:
+	with open(sys.argv[1]) as letter:
 		letter_contents = letter.read()
 		lower_case = letter_contents.lower()
 		for letters in lower_case:
